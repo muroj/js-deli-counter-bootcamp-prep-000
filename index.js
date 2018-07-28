@@ -1,6 +1,6 @@
-function takeANumber(katzDeliLine, customerName) {
-  katzDeliLine.push(customerName);
-  return katzDeliLine.length + 1;
+function takeANumber(deliLine, customerName) {
+  deliLine.push(customerName);
+  return deliLine.length + 1;
 }
 
 function nowServing(deliLine) {
@@ -12,11 +12,11 @@ function nowServing(deliLine) {
   }
 }
 
-function currentLine(katzDeliLine) {
-  if (katzDeliLine.length > 0) {
+function currentLine(deliLine) {
+  if (deliLine.length > 0) {
     var prefix = "The line is currently: ";
-    for (let i = 0; i < katzDeliLine.length; i++) {
-      prefix += i + ". " + katzDeliLine[i] + ","
+    for (let i = 0; i < deliLine.length; i++) {
+      prefix += i + ". " + deliLine[i] + ","
     }
   } else {
     return 'The line is currently empty.'
