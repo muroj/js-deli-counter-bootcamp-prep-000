@@ -1,7 +1,7 @@
 function takeANumber(deliLine, customerName) {
   deliLine.push(customerName);
   return 'Welcome, ' + customerName + ". You are number " + 
-    (deliLine.length + 1) + ' in line.';
+    (deliLine.length) + ' in line.';
 }
 
 function nowServing(deliLine) {
