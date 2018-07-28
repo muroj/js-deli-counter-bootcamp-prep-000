@@ -22,7 +22,7 @@ function currentLine(deliLine) {
       announce += `${(i + 1)}. ${deliLine[i]}, `
     }
     
-    return announce;
+    return announce.;
     
   } else {
     return 'The line is currently empty.'
