@@ -18,7 +18,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     var prefix = "The line is currently: ";
     for (let i = 0; i < katzDeliLine.length; i++) {
-      prefix += i ". " katzDeliLine[i] + ","
+      prefix += i + ". " + katzDeliLine[i] + ","
     }
   } else {
     return 'The line is currently empty.'
