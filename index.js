@@ -13,11 +13,15 @@ function nowServing(deliLine) {
 }
 
 function currentLine(deliLine) {
+  
   if (deliLine.length > 0) {
     var prefix = "The line is currently: ";
     for (let i = 0; i < deliLine.length; i++) {
       prefix += i + ". " + deliLine[i] + ","
     }
+    
+    return prefix;
+    
   } else {
     return 'The line is currently empty.'
   }
