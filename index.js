@@ -18,6 +18,7 @@ function currentLine(deliLine) {
   if (deliLine.length > 0) {
     
     var announce = "The line is currently: ";
+    
     for (let i = 0; i < deliLine.length; i++) {
       announce += (i + 1) + ". " + deliLine[i] + ", "
     }
