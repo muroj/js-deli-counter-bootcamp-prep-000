@@ -1,5 +1,3 @@
-var katzDeli = [ ];
-
 function takeANumber(katzDeliLine, customerName) {
   katzDeliLine.push(customerName);
   return katzDeliLine.length + 1;
