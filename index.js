@@ -5,10 +5,10 @@ function takeANumber(katzDeliLine, customerName) {
   return katzDeliLine.length + 1;
 }
 
-function nowServing() {
+function nowServing(deliLine) {
   
-  if (katzDeli.length > 0) {
-    return katzDeli.shift();
+  if (deliLine.length > 0) {
+    return deliLine.shift();
   } else {
     return 'There is nobody waiting to be served!'
   }
