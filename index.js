@@ -1,6 +1,6 @@
-function takeANumber(deliLine, customerName) {
-  deliLine.push(customerName);
-  return `Welcome, ${customerName}. You are number ${deliLine.length} in line.`;
+function takeANumber(deliLine, custName) {
+  deliLine.push(custName);
+  return `Welcome, ${custName}. You are number ${deliLine.length} in line.`;
 }
 
 function nowServing(deliLine) {
