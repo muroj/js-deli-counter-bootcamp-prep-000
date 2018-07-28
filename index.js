@@ -16,12 +16,13 @@ function nowServing(deliLine) {
 function currentLine(deliLine) {
   
   if (deliLine.length > 0) {
-    var prefix = "The line is currently: ";
+    
+    var announce = "The line is currently: ";
     for (let i = 0; i < deliLine.length; i++) {
-      prefix += (i + 1) + ". " + deliLine[i] + ", "
+      announce += (i + 1) + ". " + deliLine[i] + ", "
     }
     
-    return prefix;
+    return announce;
     
   } else {
     return 'The line is currently empty.'
